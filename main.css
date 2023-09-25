@@ -1,0 +1,138 @@
+body{
+background-color: black;
+}
+
+#header1{
+    color: azure;
+}
+#jhstart{
+    border: double 4px;
+    border-radius: 2em;
+    background-color: rgb(200, 132, 23);
+    width: 300px;
+    position: relative;
+    display: inline-block;
+    left: 23em;
+    bottom: 23em;
+    
+    
+}
+
+#kantoStart{
+    border: groove 5px;
+    border-radius: 3em;
+    left: 2rem;
+}
+
+#hoennStarters{
+    position: relative;
+    display: inline-block;
+    left: 45em;
+    bottom: 47.5rem;
+    border: groove 5px;
+    border-radius: 3em;
+}
+
+#sinnohStart{
+    position: relative;
+    display: inline-block;
+    bottom: 47rem;
+    width: 300px;
+    height: 24rem;
+    border: groove 5px;
+    border-radius: 3em;
+}
+
+#uStart{
+    position: relative;
+    display: inline-block;
+    bottom: 24rem;
+    left: 22rem;
+    width: 20rem;
+    border: groove  5px;
+    border-radius: 3em;
+    background-color: rgb(103, 247, 225);
+}
+
+#unovaStarters{
+    text-transform: uppercase;
+}
+li{
+    text-transform: uppercase;
+}
+
+#kalosStarters{
+    position: relative;
+    display: inline-block;
+    bottom: 49rem;
+    left: 44.5rem;
+    width: 20rem;
+    height: 24rem;
+    border: groove 5px;
+    border-radius: 3em;
+    background-color: rgb(99, 75, 75);
+}
+
+#alolaStarter{
+    position: relative;
+    display: inline-block;
+    top: 2rem;
+    right: 45rem;
+    width: 19rem;
+    border: groove 5px;
+    border-radius: 3em;
+    background-color: dimgrey;
+}
+
+#galarStarters{
+    position: relative;
+    display: inline-block;
+    bottom: 23rem;
+    right: 23rem;
+    width: 19rem;
+    height: 24rem;
+    border: groove 5px;
+    border-radius: 3em;
+    background-color: dimgrey;
+    color: ivory;
+}
+
+#paldeaStarters{
+    position: relative;
+    display: inline-block;
+    bottom: 25rem;
+    left: 23rem;
+    width: 19rem;
+    border: groove 5px;
+    border-radius: 3em;
+    background-color: dimgrey;
+    color: ivory;
+}
+
+#pokeAbility17{
+    position: relative;
+    display: inline-block;
+    bottom: 25rem;
+    right: 21rem;
+    background-color: dimgrey;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    border: groove 5px;
+    border-radius: 3em;
+    width: 25rem;
+}
+
+#pokeMoves{
+    position: relative;
+    display: inline-block;
+    bottom: 16rem;
+    right: 21rem;
+    background-color: dimgrey;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    border: groove 5px;
+    border-radius: 3em;
+    width: 45rem;
+}

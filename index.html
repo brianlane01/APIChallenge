@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./main.css">
+    <title>Pokemon API</title>
+</head>
+<body>
+    <h1 id="header1">Pokemon API Contents</h1>
+    <div>
+    <div class="card text-bg-success mb-3" style="max-width: 20rem; max-height: 25rem;" id="kantoStart">
+        <div class="card-header">The Starter Pokemon</div>
+        <div class="card-body">
+            <h5 class="card-title">From The First Gen</h5>
+            <p>Kanto Pokemon.</p>
+            <ul id="kStarters">
+
+            </ul>
+        </div>
+        <div id="jhstart">
+        <div class="card" id="johtoStart"></div>
+        <div class="card-header">The Starter Pokemon</div>
+        <div class="card-body">
+            <h5 class="card-title">From The Second Gen</h5>
+            <p>Johto Pokemon.</p>
+            <ul id="jStarters">
+
+            </ul>
+        </div>
+        </div>
+        <div class="card text-bg-dark mb-3" style="max-width: 18rem;" id="hoennStarters">
+            <div class="card-header">The Starter Pokemon</div>
+            <div class="card-body">
+                <h5 class="card-title">From the Third Gen</h5>
+                <p class="card-text">Hoenn Region Starters</p>
+                <ul id="heStart"></ul>
+            </div>
+    </div>
+    <div>
+        <div class="card text-bg-secondary mb-3" id="sinnohStart">
+            <div class="card-header">The Starter Pokemon</div>
+            <div class="card-body">
+              <h5 class="card-title">From the Fourth Gen</h5>
+              <p class="card-text">Sinnoh Region Starters</p>
+              <ul id="sStart">
+
+              </ul>
+            </div>
+        <div class="card border-success mb-3"  id="uStart">
+        <div class="card-header">The Starter Pokemon</div>
+        <div class="card-body text-success">
+        <h5 class="card-title">From the Fifth Gen</h5>
+        <p class="card-text">Unova Region Starters</p>
+        <ol start="495" id="unovaStarters">
+
+        </ol>
+        </div>
+
+    </div>
+    <div class="card border-primary mb-3" id="kalosStarters">
+        <div class="card-header">The Starter Pokemon</div>
+        <div class="card-body text-primary">
+          <h5 class="card-title">From the Sixth Gen</h5>
+          <p class="card-text">Kalos Region Starters</p>
+          <ol start="650" id="kalosStart">
+
+          </ol>
+        </div>
+    <div class="card border-danger mb-3" id="alolaStarter">
+        <div class="card-header">The Starter Pokemon</div>
+        <div class="card-body text-danger">
+            <h5 class="card-title">From the Seventh Gen</h5>
+            <p class="card-text"> Alola Region Starters</p>
+            <ol start="722" id="alola">
+
+            </ol>
+        </div>
+    </div>
+
+    <div class="card border-warning mb-3" id="galarStarters">
+        <div class="card-header">The Starter Pokemon</div>
+        <div class="card-body">
+        <h5 class="card-title">From the Eighth Gen</h5>
+        <p class="card-text">Galarian Region Starters</p>
+        <ol start="810" id="galarStart">
+
+        </ol>
+    </div>
+    <br>
+    <div class="card text-bg-danger mb-3" id="paldeaStarters">
+        <div class="card-header">The Starter Pokemon</div>
+        <div class="card-body">
+          <h5 class="card-title">From the Ninth Gen</h5>
+          <p class="card-text">Paldea Starter Pokemon</p>
+          <ol id="paldeaStart" start="906">
+
+          </ol>
+    </div>
+    </div>
+
+    <br>
+    <br>
+    <hr>
+    <div id="pokeAbility17">
+        <h3>Pokemon's Immunity Ability</h3>
+        <p></p>
+    </div>
+    
+    <div id="pokeMoves">
+        <h3>Pokemon Moves</h3>
+        <ul id="pokeMoves1"></ul>
+    </div>
+
+
+
+    <script src="./pokemon-api-script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
